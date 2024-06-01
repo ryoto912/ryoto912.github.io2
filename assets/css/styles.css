@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+body{
+    background-color: black;
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+.nav{
+    background-color: rgb(154, 147, 147);
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+
+.nav img{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-top: -18px;
+    margin-left: 10px;
+}
+
+
+.nav ul{
+    text-align: center;
+}
+
+.nav ul li{
+    color: #fff;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    background-color: #ffffff5b;
+}
+
+
+.nav span{
+    background-color: red;
+    font-weight: bold;
+    float: right;
+    padding: 15px;
+    margin-right: 20px;
+    transform: translateY(-85%);
+    border-radius: 5px;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.nav span a{
+    text-decoration: none;
+}
+
+.Top{
+    height: 500px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.Top-img{
+    margin-left: 20%;
+    width: 60%;
+    height: 100%;
+    display: block;
+    z-index: 3;
+    position: absolute;
+}
+
+.Top-back1{
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 500px;
+    filter: blur(8px);
+    z-index: 2;
+}
+
+.Top-back2{
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 500px;
+    filter: blur(8px);
+    margin-left: 40%;
+    z-index: 1;
+}
+
+.overview{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    margin-top: 50px;
+    height: 960px;
+}
+
+.overview2{
+    width: 45%;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.overview2 h3{
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #0bc9f4da;
+}
+
+.overview2 p{
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 5px;
+}
+
+.overview2 img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.overview h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+
+.News{
+    height: 500px;
+}
+
+.News3{
+    float: left;
+    width: 25%;
+    height: 380px;
+    background-color: rgb(40, 37, 37);
+    border: solid 3px green;
+}
+
+.News3 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.News img{
+    width: 100%;
+    height: 250px;
+}
+.News p{
+   font-size: 20px;
+   color: rgb(246, 255, 0);
+   padding: 5px;
+}
+
+.section{
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+}
+
+.number{
+    font-weight: bold;
+}
+
+.News a div:hover{
+    background-color: rgba(0, 187, 255, 0.377);
+}
+
+.DLC{
+    height: auto;
+}
+
+.DLC2{
+    width: 620px;
+    height: 460px;
+    margin: auto;
+    position: relative;
+}
+
+.DLC3{
+    width: 300px;
+    height: 460px;
+    float: left;
+    position: absolute;
+    margin-right: 20px;
+    border: solid rgb(125, 175, 255);
+}
+
+.DLC3 img{
+    width: 100%;
+}
+
+.DLC3 p{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.DLC3 a{
+    text-decoration: none;
+}
+
+.DLC4{
+    border: dotted  2px #fff;
+    width: 300px;
+    height: 460px;
+    float: left;
+    position: absolute;
+    margin-left: 320px;
+}
+
+.DLC4 p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 220px;
+}
+
+
+.Merch{
+    width: 85%;
+    margin: auto;
+}
+
+.Merch2{
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 5%;
+}
+
+.Merch2 img{
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+}
+
+.Merch2:nth-child(5),
+.Merch2:nth-child(9){
+    margin-right: 0;
+}
+
+.Merch2 p,.Merch2 span{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.merch-name{
+    font-family: "Anton", sans-serif;
+}
+
+.value{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shop{
+    background-color: red;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.shop a{
+    text-decoration: none;
+}
+
+.Support{
+    background-color: #99fdf7;
+}
+
+.Support h1{
+    padding: 50px;
+    margin-bottom: 0;
+}
+
+.Support2{
+    width: 50%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Support h1{
+    color: black;
+}
+
+.Support2 ul li{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.Support ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Support ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.ul1{
+    float: left;
+    margin-left: 50px;
+}
+
+.ul2{
+    float: right;
+}
+
+footer{
+    height: 70px;
+    background-color: gray;
+    text-align: center;
+}
+
+footer div{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer img{
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+}
+
+footer p{
+   text-align: right;
+    transform: translateY(-35px);
+    margin-right: 50px;
+}
